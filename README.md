@@ -18,6 +18,9 @@ Performance issue is, if our algorithim is taking more time for 1 unit of task e
 Scalability issu is, if our system performs well for 1 unit of tasks execution, however, slows down if the size of tasks increases.
 
 Thus, spinning off more and more go-routines to execute concurrently at any given instance in time may result into sacalability issue.
-So the first approach should be limiting the number of go-routines. But at the same time each job needs to be executed. And this should happen judicially.
-Meaning we cannot just drop the job. So, the only possibility remains is to control the number of concurrently running go-routines.
-The best way is through pool of go-routines.
+So the first approach should be limiting the number of go-routines. But at the same time each job needs to be executed. And this should happen judicially, meaning no job can be dropped
+in order to control the number of concurrently running go-routines. So, the only possibility remains is to control the number of concurrently running go-routines.
+The best way is through creating a team of go-routines with a fixed number. Thus, each go-routine in the team may either be free or be executing a job at any given instance in time.
+This team is go-routine pool, also termed as worker-pool in generic term.
+
+Implementation strategies:
