@@ -8,4 +8,16 @@ ones amongst the GC oriented programming languages. As well, the small size of g
 switching and swap-in and swap-out. But, no matter how effective the go-routine management is, running those many go-routines concurrently (I'm using concurrently and parallelly loosely
 here, and thus, to mean the same) should still make us believe that we may need to revist the approach.
 
-Keeping the concurrently running go-routines at a generously limited size is a better approach. This is important because creating too many worker go-routines can lead to performance issues and resource contention.
+Keeping the concurrently running go-routines at a generously limited size is a better approach. This is important because creating too many worker go-routines can lead to performance
+issues and resource contention. Though, size of each go-routine is small and typically is in the range of 2K to 4K, memory consumed by a huge number of concurrently running go-routines
+is still going to be a costlier affair as, no matter how rich, the resources will still be limited.
+The other important aspect is as the number of go-routines increases chances of thrashing will increase in equal proportions.
+The sum effect of all this is the scalability issue. I'm dis-accounting the performance issue since it'll mostly be related to the job the work is going to execute.
+As anyway since we spoke about performance issue and scalability issue, they're clearly different from each other:
+Performance issue is, if our algorithim is taking more time for 1 unit of task execution, we've a performance problem.
+Scalability issu is, if our system performs well for 1 unit of tasks execution, however, slows down if the size of tasks increases.
+
+Thus, spinning off more and more go-routines to execute concurrently at any given instance in time may result into sacalability issue.
+So the first approach should be limiting the number of go-routines. But at the same time each job needs to be executed. And this should happen judicially.
+Meaning we cannot just drop the job. So, the only possibility remains is to control the number of concurrently running go-routines.
+The best way is through pool of go-routines.
