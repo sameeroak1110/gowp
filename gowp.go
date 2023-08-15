@@ -77,13 +77,14 @@ func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int3
 
 
 func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
-	var err error
+	//var err error
 
 	defer func() {
-		jobStatus := "JobDone"
+		// TODO: log jobstatus
+		/* jobStatus := "JobDone"
 		if err != nil {
 			jobStatus = "JobError: " + err.Error()
-		}
+		} */
 
 		pwp.workers <- wid  // one more worker is made available.
 		atomic.AddInt32(&pwp.wcnt, -1)
@@ -103,12 +104,16 @@ func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
 	}(&wg)
 
 	select {
-		case val := <-pwp.GetContext().Done():
+		case <-pwp.GetContext().Done():
 			wg.Wait()
 			return
 
-		case js := <-c:
+		// TODO: need to push the result to some channel.
+		/* case js := <-c:
 			err = js.Err
+			wg.Wait() */
+
+		case <-c:
 			wg.Wait()
 	}
 
