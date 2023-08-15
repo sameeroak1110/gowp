@@ -151,7 +151,8 @@ func (pwp *WorkerPool) Start(ctx context.Context, pwg *sync.WaitGroup) {
 						if wid > 0 {
 							wcnt := atomic.AddInt32(&pwp.wcnt, 1)
 							avlwcnt := atomic.AddInt32(&pwp.avlwcnt, -1)
-							jobcnt := atomic.AddUint64(&pwp.jobcnt, 1)
+							//jobcnt := atomic.AddUint64(&pwp.jobcnt, 1)
+							atomic.AddUint64(&pwp.jobcnt, 1)
 							pwp.wg.Add(1)
 							//time.Sleep(time.Duration(helper.RandomInt(1000, 2000)) * time.Millisecond)
 							go pwp.exec(job, wid, wcnt, avlwcnt)
