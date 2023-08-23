@@ -1,0 +1,1 @@
+$ go build -race -a -v -gcflags=-trimpath=. -gcflags="all=-N -l" -asmflags=-trimpath=. -ldflags="-s -w" -o sampleapp.bin ./

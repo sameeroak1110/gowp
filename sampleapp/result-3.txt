@@ -1,0 +1,1489 @@
+[main] [22-08-2023:071839-730897144-IST] [DEBUG] [main/main.go +78]@[main.main]:
+logger initialized.
+[main] [22-08-2023:071839-731115870-IST] [DEBUG] [main/main.go +79]@[main.main]:
+log dispatcher started.
+len(uuidBuffer): 20,  newuuid: 7b5a7be663122262d13c736ebf84a988a184870d
+[main] [22-08-2023:071839-731254503-IST] [DEBUG] [main/main.go +88]@[main.main]:
+application started.
+[main] [22-08-2023:071841-960565634-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 118 ms before new job(TestJob-1:1) was added
+
+[job] [22-08-2023:071841-960868128-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(1:TestJob-1) starts.
+[main] [22-08-2023:071842-101282802-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 140 ms before new job(TestJob-2:2) was added
+
+[job] [22-08-2023:071842-101830260-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(2:TestJob-2) starts.
+[main] [22-08-2023:071842-208157626-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 106 ms before new job(TestJob-3:3) was added
+
+[job] [22-08-2023:071842-208408335-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(3:TestJob-3) starts.
+[main] [22-08-2023:071842-356827729-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 148 ms before new job(TestJob-4:4) was added
+
+[job] [22-08-2023:071842-357138115-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(4:TestJob-4) starts.
+[main] [22-08-2023:071842-511693696-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 154 ms before new job(TestJob-5:5) was added
+
+[job] [22-08-2023:071842-512059035-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(5:TestJob-5) starts.
+[main] [22-08-2023:071842-757545169-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 245 ms before new job(TestJob-6:6) was added
+
+[job] [22-08-2023:071842-757998906-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(6:TestJob-6) starts.
+[main] [22-08-2023:071843-7285994-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 249 ms before new job(TestJob-7:7) was added
+
+[job] [22-08-2023:071843-7619757-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(7:TestJob-7) starts.
+[main] [22-08-2023:071843-144070548-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 136 ms before new job(TestJob-8:8) was added
+
+[job] [22-08-2023:071843-144315217-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(8:TestJob-8) starts.
+[main] [22-08-2023:071843-412859120-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 268 ms before new job(TestJob-9:9) was added
+
+[job] [22-08-2023:071843-413189667-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(9:TestJob-9) starts.
+[main] [22-08-2023:071843-660637301-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 247 ms before new job(TestJob-10:10) was added
+
+[job] [22-08-2023:071843-660946416-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(10:TestJob-10) starts.
+[main] [22-08-2023:071843-781268861-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 120 ms before new job(TestJob-11:11) was added
+
+[job] [22-08-2023:071843-781555649-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(11:TestJob-11) starts.
+[main] [22-08-2023:071843-891865507-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 110 ms before new job(TestJob-12:12) was added
+
+[job] [22-08-2023:071843-892219690-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(12:TestJob-12) starts.
+[main] [22-08-2023:071844-190786443-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 298 ms before new job(TestJob-13:13) was added
+
+[job] [22-08-2023:071844-191004632-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(13:TestJob-13) starts.
+[main] [22-08-2023:071844-314655688-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 123 ms before new job(TestJob-14:14) was added
+
+[job] [22-08-2023:071844-314819001-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(14:TestJob-14) starts.
+[main] [22-08-2023:071844-453446928-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 138 ms before new job(TestJob-15:15) was added
+
+[job] [22-08-2023:071844-453718056-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(15:TestJob-15) starts.
+[main] [22-08-2023:071844-652254717-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 198 ms before new job(TestJob-16:16) was added
+
+[job] [22-08-2023:071844-652605107-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(16:TestJob-16) starts.
+[main] [22-08-2023:071844-853920800-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 201 ms before new job(TestJob-17:17) was added
+
+[job] [22-08-2023:071844-854202596-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(17:TestJob-17) starts.
+[main] [22-08-2023:071845-80658312-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 226 ms before new job(TestJob-18:18) was added
+
+[job] [22-08-2023:071845-80922250-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(18:TestJob-18) starts.
+[main] [22-08-2023:071845-270472272-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 189 ms before new job(TestJob-19:19) was added
+
+[job] [22-08-2023:071845-270753386-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(19:TestJob-19) starts.
+[main] [22-08-2023:071845-441427809-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 170 ms before new job(TestJob-20:20) was added
+
+[job] [22-08-2023:071845-441775839-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(20:TestJob-20) starts.
+[main] [22-08-2023:071845-552043570-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 110 ms before new job(TestJob-21:21) was added
+
+[job] [22-08-2023:071845-552369971-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(21:TestJob-21) starts.
+[main] [22-08-2023:071845-760797264-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 208 ms before new job(TestJob-22:22) was added
+
+[job] [22-08-2023:071845-761061974-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(22:TestJob-22) starts.
+[main] [22-08-2023:071845-886508822-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 125 ms before new job(TestJob-23:23) was added
+
+[job] [22-08-2023:071845-886825253-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(23:TestJob-23) starts.
+[main] [22-08-2023:071846-15173042-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 128 ms before new job(TestJob-24:24) was added
+
+[job] [22-08-2023:071846-15493970-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(24:TestJob-24) starts.
+[main] [22-08-2023:071846-217934328-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 202 ms before new job(TestJob-25:25) was added
+
+[job] [22-08-2023:071846-218210234-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(25:TestJob-25) starts.
+[main] [22-08-2023:071846-484750170-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 266 ms before new job(TestJob-26:26) was added
+
+[job] [22-08-2023:071846-485046951-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(26:TestJob-26) starts.
+[main] [22-08-2023:071846-700468308-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 215 ms before new job(TestJob-27:27) was added
+
+[job] [22-08-2023:071846-700706412-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(27:TestJob-27) starts.
+[main] [22-08-2023:071846-809132090-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 108 ms before new job(TestJob-28:28) was added
+
+[job] [22-08-2023:071846-809424345-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(28:TestJob-28) starts.
+[main] [22-08-2023:071847-33976958-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 224 ms before new job(TestJob-29:29) was added
+
+[job] [22-08-2023:071847-34285972-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(29:TestJob-29) starts.
+[job] [22-08-2023:071847-200470771-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(6:TestJob-6) executed for 4442 ms
+[job] [22-08-2023:071847-200630686-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 6:TestJob-6
+[main] [22-08-2023:071847-255893167-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 221 ms before new job(TestJob-30:30) was added
+
+[job] [22-08-2023:071847-256138407-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(30:TestJob-30) starts.
+[main] [22-08-2023:071847-400759304-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 144 ms before new job(TestJob-31:31) was added
+
+[job] [22-08-2023:071847-401039526-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(31:TestJob-31) starts.
+[main] [22-08-2023:071847-585457919-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 184 ms before new job(TestJob-32:32) was added
+
+[job] [22-08-2023:071847-585708005-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(32:TestJob-32) starts.
+[main] [22-08-2023:071847-747327187-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 161 ms before new job(TestJob-33:33) was added
+
+[job] [22-08-2023:071847-747684852-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(33:TestJob-33) starts.
+[main] [22-08-2023:071847-915092012-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 167 ms before new job(TestJob-34:34) was added
+
+[job] [22-08-2023:071847-915342395-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(34:TestJob-34) starts.
+[main] [22-08-2023:071848-202923884-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 287 ms before new job(TestJob-35:35) was added
+
+[job] [22-08-2023:071848-203298237-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(35:TestJob-35) starts.
+[main] [22-08-2023:071848-405655691-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 202 ms before new job(TestJob-36:36) was added
+
+[job] [22-08-2023:071848-405936313-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(36:TestJob-36) starts.
+[main] [22-08-2023:071848-512244765-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 106 ms before new job(TestJob-37:37) was added
+
+[job] [22-08-2023:071848-512495398-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(37:TestJob-37) starts.
+[job] [22-08-2023:071848-686991228-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(17:TestJob-17) executed for 3832 ms
+[job] [22-08-2023:071848-687168095-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 17:TestJob-17
+[main] [22-08-2023:071848-705316575-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 192 ms before new job(TestJob-38:38) was added
+
+[job] [22-08-2023:071848-705577832-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(38:TestJob-38) starts.
+[main] [22-08-2023:071848-920146158-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 214 ms before new job(TestJob-39:39) was added
+
+[job] [22-08-2023:071848-920433350-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(39:TestJob-39) starts.
+[main] [22-08-2023:071849-174919418-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 254 ms before new job(TestJob-40:40) was added
+
+[job] [22-08-2023:071849-175163033-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(40:TestJob-40) starts.
+[main] [22-08-2023:071849-367750540-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 192 ms before new job(TestJob-41:41) was added
+
+[job] [22-08-2023:071849-368024637-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(41:TestJob-41) starts.
+[main] [22-08-2023:071849-498355092-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 130 ms before new job(TestJob-42:42) was added
+
+[job] [22-08-2023:071849-498665285-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(42:TestJob-42) starts.
+[main] [22-08-2023:071849-758245581-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 259 ms before new job(TestJob-43:43) was added
+
+[job] [22-08-2023:071849-758601557-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(43:TestJob-43) starts.
+[main] [22-08-2023:071849-875858312-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 117 ms before new job(TestJob-44:44) was added
+
+[job] [22-08-2023:071849-876237081-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(44:TestJob-44) starts.
+[main] [22-08-2023:071850-54665460-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 178 ms before new job(TestJob-45:45) was added
+
+[job] [22-08-2023:071850-54939038-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(45:TestJob-45) starts.
+[main] [22-08-2023:071850-263491305-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 208 ms before new job(TestJob-46:46) was added
+
+[job] [22-08-2023:071850-263766492-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(46:TestJob-46) starts.
+[main] [22-08-2023:071850-525449059-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 261 ms before new job(TestJob-47:47) was added
+
+[job] [22-08-2023:071850-525712463-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(47:TestJob-47) starts.
+[main] [22-08-2023:071850-688274289-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 162 ms before new job(TestJob-48:48) was added
+
+[job] [22-08-2023:071850-688625226-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(48:TestJob-48) starts.
+[main] [22-08-2023:071850-816948251-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 128 ms before new job(TestJob-49:49) was added
+
+[job] [22-08-2023:071850-817245288-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(49:TestJob-49) starts.
+[main] [22-08-2023:071851-117798860-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 300 ms before new job(TestJob-50:50) was added
+
+[job] [22-08-2023:071851-118148835-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(50:TestJob-50) starts.
+[main] [22-08-2023:071851-221386294-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 103 ms before new job(TestJob-51:51) was added
+
+[job] [22-08-2023:071851-221590203-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(51:TestJob-51) starts.
+[main] [22-08-2023:071851-504431160-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 282 ms before new job(TestJob-52:52) was added
+
+[job] [22-08-2023:071851-504631761-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(52:TestJob-52) starts.
+[main] [22-08-2023:071851-689100039-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 184 ms before new job(TestJob-53:53) was added
+
+[job] [22-08-2023:071851-689363873-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(53:TestJob-53) starts.
+[job] [22-08-2023:071851-893570042-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(1:TestJob-1) executed for 9932 ms
+[job] [22-08-2023:071851-893732217-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 1:TestJob-1
+[main] [22-08-2023:071851-969108493-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 279 ms before new job(TestJob-54:54) was added
+
+[job] [22-08-2023:071851-969436038-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(54:TestJob-54) starts.
+[main] [22-08-2023:071852-254929381-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 285 ms before new job(TestJob-55:55) was added
+
+[job] [22-08-2023:071852-255190672-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(55:TestJob-55) starts.
+[main] [22-08-2023:071852-444791239-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 189 ms before new job(TestJob-56:56) was added
+
+[job] [22-08-2023:071852-445061893-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(56:TestJob-56) starts.
+[main] [22-08-2023:071852-595522879-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 150 ms before new job(TestJob-57:57) was added
+
+[job] [22-08-2023:071852-595880509-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(57:TestJob-57) starts.
+[main] [22-08-2023:071852-723314816-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 127 ms before new job(TestJob-58:58) was added
+
+[job] [22-08-2023:071852-723610868-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(58:TestJob-58) starts.
+[main] [22-08-2023:071852-998178597-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 274 ms before new job(TestJob-59:59) was added
+
+[job] [22-08-2023:071852-998544766-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(59:TestJob-59) starts.
+[main] [22-08-2023:071853-242012509-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 243 ms before new job(TestJob-60:60) was added
+
+[job] [22-08-2023:071853-242285890-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(60:TestJob-60) starts.
+[main] [22-08-2023:071853-366676111-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 124 ms before new job(TestJob-61:61) was added
+
+[job] [22-08-2023:071853-366944679-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(61:TestJob-61) starts.
+[main] [22-08-2023:071853-562456972-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 195 ms before new job(TestJob-62:62) was added
+
+[job] [22-08-2023:071853-562768857-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(62:TestJob-62) starts.
+[main] [22-08-2023:071853-839354350-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 276 ms before new job(TestJob-63:63) was added
+
+[job] [22-08-2023:071853-839698825-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(63:TestJob-63) starts.
+[main] [22-08-2023:071853-955047645-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 115 ms before new job(TestJob-64:64) was added
+
+[job] [22-08-2023:071853-955307068-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(64:TestJob-64) starts.
+[job] [22-08-2023:071854-93763057-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(22:TestJob-22) executed for 8332 ms
+[job] [22-08-2023:071854-93952280-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 22:TestJob-22
+[main] [22-08-2023:071854-198332765-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 242 ms before new job(TestJob-65:65) was added
+
+[job] [22-08-2023:071854-198600369-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(65:TestJob-65) starts.
+[job] [22-08-2023:071854-232929344-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(32:TestJob-32) executed for 6646 ms
+[job] [22-08-2023:071854-233100779-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 32:TestJob-32
+[main] [22-08-2023:071854-347538233-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 148 ms before new job(TestJob-66:66) was added
+
+[job] [22-08-2023:071854-347849691-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(66:TestJob-66) starts.
+[main] [22-08-2023:071854-460261427-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 112 ms before new job(TestJob-67:67) was added
+
+[job] [22-08-2023:071854-460559113-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(67:TestJob-67) starts.
+[main] [22-08-2023:071854-698096317-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 237 ms before new job(TestJob-68:68) was added
+
+[job] [22-08-2023:071854-698398122-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(68:TestJob-68) starts.
+[job] [22-08-2023:071854-812660096-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(12:TestJob-12) executed for 10920 ms
+[job] [22-08-2023:071854-812836239-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 12:TestJob-12
+[main] [22-08-2023:071854-919232875-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 220 ms before new job(TestJob-69:69) was added
+
+[job] [22-08-2023:071854-919430667-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(69:TestJob-69) starts.
+[job] [22-08-2023:071854-981680721-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(41:TestJob-41) executed for 5613 ms
+[job] [22-08-2023:071854-981850489-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 41:TestJob-41
+[main] [22-08-2023:071855-92167857-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 172 ms before new job(TestJob-70:70) was added
+
+[job] [22-08-2023:071855-92496526-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(70:TestJob-70) starts.
+[main] [22-08-2023:071855-235828635-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 143 ms before new job(TestJob-71:71) was added
+
+[job] [22-08-2023:071855-236108543-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(71:TestJob-71) starts.
+[job] [22-08-2023:071855-346454399-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(7:TestJob-7) executed for 12338 ms
+[job] [22-08-2023:071855-346624720-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 7:TestJob-7
+[main] [22-08-2023:071855-479079222-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 242 ms before new job(TestJob-72:72) was added
+
+[job] [22-08-2023:071855-479325330-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(72:TestJob-72) starts.
+[main] [22-08-2023:071855-695811573-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 216 ms before new job(TestJob-73:73) was added
+
+[job] [22-08-2023:071855-696013812-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(73:TestJob-73) starts.
+[main] [22-08-2023:071855-818457887-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 122 ms before new job(TestJob-74:74) was added
+
+[job] [22-08-2023:071855-818848231-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(74:TestJob-74) starts.
+[main] [22-08-2023:071855-921145116-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 102 ms before new job(TestJob-75:75) was added
+
+[job] [22-08-2023:071855-921474443-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(75:TestJob-75) starts.
+[main] [22-08-2023:071856-163889899-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 242 ms before new job(TestJob-76:76) was added
+
+[job] [22-08-2023:071856-164203288-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(76:TestJob-76) starts.
+[job] [22-08-2023:071856-188427491-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(49:TestJob-49) executed for 5370 ms
+[job] [22-08-2023:071856-188617674-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 49:TestJob-49
+[main] [22-08-2023:071856-450187454-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 285 ms before new job(TestJob-77:77) was added
+
+[job] [22-08-2023:071856-450463622-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(77:TestJob-77) starts.
+[main] [22-08-2023:071856-628950701-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 178 ms before new job(TestJob-78:78) was added
+
+[job] [22-08-2023:071856-629196774-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(78:TestJob-78) starts.
+[main] [22-08-2023:071856-872853533-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 243 ms before new job(TestJob-79:79) was added
+
+[job] [22-08-2023:071856-873176652-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(79:TestJob-79) starts.
+[job] [22-08-2023:071856-945443452-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(34:TestJob-34) executed for 9029 ms
+[job] [22-08-2023:071856-945619922-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 34:TestJob-34
+[main] [22-08-2023:071856-997752880-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 124 ms before new job(TestJob-80:80) was added
+
+[job] [22-08-2023:071856-998069463-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(80:TestJob-80) starts.
+[job] [22-08-2023:071857-132336064-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(3:TestJob-3) executed for 14923 ms
+[job] [22-08-2023:071857-132516113-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 3:TestJob-3
+[main] [22-08-2023:071857-286783062-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 288 ms before new job(TestJob-81:81) was added
+
+[job] [22-08-2023:071857-287030464-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(81:TestJob-81) starts.
+[main] [22-08-2023:071857-415506565-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 128 ms before new job(TestJob-82:82) was added
+
+[job] [22-08-2023:071857-415829845-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(82:TestJob-82) starts.
+[main] [22-08-2023:071857-526258179-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 110 ms before new job(TestJob-83:83) was added
+
+[job] [22-08-2023:071857-526480541-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(83:TestJob-83) starts.
+[job] [22-08-2023:071857-590970010-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(36:TestJob-36) executed for 9184 ms
+[job] [22-08-2023:071857-591138497-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 36:TestJob-36
+[main] [22-08-2023:071857-786615531-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 259 ms before new job(TestJob-84:84) was added
+
+[job] [22-08-2023:071857-786885238-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(84:TestJob-84) starts.
+[main] [22-08-2023:071857-919212094-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 132 ms before new job(TestJob-85:85) was added
+
+[job] [22-08-2023:071857-919460460-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(85:TestJob-85) starts.
+[main] [22-08-2023:071858-56882817-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 137 ms before new job(TestJob-86:86) was added
+
+[job] [22-08-2023:071858-57156630-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(86:TestJob-86) starts.
+[job] [22-08-2023:071858-169184238-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(20:TestJob-20) executed for 12727 ms
+[job] [22-08-2023:071858-169393867-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 20:TestJob-20
+[main] [22-08-2023:071858-338725452-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 281 ms before new job(TestJob-87:87) was added
+
+[job] [22-08-2023:071858-338942431-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(87:TestJob-87) starts.
+[main] [22-08-2023:071858-573409808-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 234 ms before new job(TestJob-88:88) was added
+
+[job] [22-08-2023:071858-573707773-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(88:TestJob-88) starts.
+[main] [22-08-2023:071858-795157707-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 221 ms before new job(TestJob-89:89) was added
+
+[job] [22-08-2023:071858-795434542-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(89:TestJob-89) starts.
+[main] [22-08-2023:071858-977979658-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 182 ms before new job(TestJob-90:90) was added
+
+[job] [22-08-2023:071858-978256249-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(90:TestJob-90) starts.
+[main] [22-08-2023:071859-265906337-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 287 ms before new job(TestJob-91:91) was added
+
+[job] [22-08-2023:071859-266149343-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(91:TestJob-91) starts.
+[main] [22-08-2023:071859-516812404-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 250 ms before new job(TestJob-92:92) was added
+
+[job] [22-08-2023:071859-517100580-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(92:TestJob-92) starts.
+[job] [22-08-2023:071859-582365435-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(2:TestJob-2) executed for 17480 ms
+[job] [22-08-2023:071859-582544290-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 2:TestJob-2
+[main] [22-08-2023:071859-747856208-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 230 ms before new job(TestJob-93:93) was added
+
+[job] [22-08-2023:071859-748116538-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(93:TestJob-93) starts.
+[job] [22-08-2023:071859-913493618-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(53:TestJob-53) executed for 8223 ms
+[job] [22-08-2023:071859-913679979-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 53:TestJob-53
+[main] [22-08-2023:071859-966918328-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 218 ms before new job(TestJob-94:94) was added
+
+[job] [22-08-2023:071859-967235160-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(94:TestJob-94) starts.
+[main] [22-08-2023:071900-222670062-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 255 ms before new job(TestJob-95:95) was added
+
+[job] [22-08-2023:071900-222947689-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(95:TestJob-95) starts.
+[main] [22-08-2023:071900-487446354-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 264 ms before new job(TestJob-96:96) was added
+
+[job] [22-08-2023:071900-487691994-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(96:TestJob-96) starts.
+[main] [22-08-2023:071900-596907984-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 109 ms before new job(TestJob-97:97) was added
+
+[job] [22-08-2023:071900-597164044-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(97:TestJob-97) starts.
+[main] [22-08-2023:071900-859627314-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 262 ms before new job(TestJob-98:98) was added
+
+[job] [22-08-2023:071900-859798562-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(98:TestJob-98) starts.
+[main] [22-08-2023:071901-61210501-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 201 ms before new job(TestJob-99:99) was added
+
+[job] [22-08-2023:071901-61599635-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(99:TestJob-99) starts.
+[main] [22-08-2023:071901-346097582-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 284 ms before new job(TestJob-100:100) was added
+
+[job] [22-08-2023:071901-346434742-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(100:TestJob-100) starts.
+[main] [22-08-2023:071901-567850693-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 221 ms before new job(TestJob-101:101) was added
+
+[job] [22-08-2023:071901-568201814-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(101:TestJob-101) starts.
+[job] [22-08-2023:071901-642418614-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(81:TestJob-81) executed for 4355 ms
+[job] [22-08-2023:071901-642598481-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 81:TestJob-81
+[main] [22-08-2023:071901-787949024-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 219 ms before new job(TestJob-102:102) was added
+
+[job] [22-08-2023:071901-788103726-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(102:TestJob-102) starts.
+[main] [22-08-2023:071901-937797719-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 149 ms before new job(TestJob-103:103) was added
+
+[job] [22-08-2023:071901-938131128-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(103:TestJob-103) starts.
+[main] [22-08-2023:071902-139663834-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 201 ms before new job(TestJob-104:104) was added
+
+[job] [22-08-2023:071902-139922526-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(104:TestJob-104) starts.
+[main] [22-08-2023:071902-393547656-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 253 ms before new job(TestJob-105:105) was added
+
+[job] [22-08-2023:071902-393819613-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(105:TestJob-105) starts.
+[job] [22-08-2023:071902-414115591-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(67:TestJob-67) executed for 7953 ms
+[job] [22-08-2023:071902-414292719-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 67:TestJob-67
+[main] [22-08-2023:071902-515730891-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 121 ms before new job(TestJob-106:106) was added
+
+[job] [22-08-2023:071902-515947294-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(106:TestJob-106) starts.
+[job] [22-08-2023:071902-587286736-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(61:TestJob-61) executed for 9220 ms
+[job] [22-08-2023:071902-587461380-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 61:TestJob-61
+[main] [22-08-2023:071902-807893096-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 291 ms before new job(TestJob-107:107) was added
+
+[job] [22-08-2023:071902-808154558-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(107:TestJob-107) starts.
+[main] [22-08-2023:071903-81686612-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 273 ms before new job(TestJob-108:108) was added
+
+[job] [22-08-2023:071903-81995851-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(108:TestJob-108) starts.
+[job] [22-08-2023:071903-196221544-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(25:TestJob-25) executed for 16977 ms
+[job] [22-08-2023:071903-196389175-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 25:TestJob-25
+[main] [22-08-2023:071903-306731771-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 224 ms before new job(TestJob-109:109) was added
+
+[job] [22-08-2023:071903-306988577-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(109:TestJob-109) starts.
+[main] [22-08-2023:071903-503295621-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 196 ms before new job(TestJob-110:110) was added
+
+[job] [22-08-2023:071903-503586235-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(110:TestJob-110) starts.
+[main] [22-08-2023:071903-706082044-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 202 ms before new job(TestJob-111:111) was added
+
+[job] [22-08-2023:071903-706321001-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(111:TestJob-111) starts.
+[main] [22-08-2023:071903-927857734-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 221 ms before new job(TestJob-112:112) was added
+
+[job] [22-08-2023:071903-928199359-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(112:TestJob-112) starts.
+[main] [22-08-2023:071904-154618503-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 226 ms before new job(TestJob-113:113) was added
+
+[job] [22-08-2023:071904-154972884-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(113:TestJob-113) starts.
+[job] [22-08-2023:071904-192212763-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(89:TestJob-89) executed for 5396 ms
+[job] [22-08-2023:071904-192409864-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 89:TestJob-89
+[job] [22-08-2023:071904-194710148-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(63:TestJob-63) executed for 10354 ms
+[job] [22-08-2023:071904-194882168-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 63:TestJob-63
+[main] [22-08-2023:071904-338103254-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 183 ms before new job(TestJob-114:114) was added
+
+[job] [22-08-2023:071904-338349230-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(114:TestJob-114) starts.
+[job] [22-08-2023:071904-494878361-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(82:TestJob-82) executed for 7078 ms
+[job] [22-08-2023:071904-495045460-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 82:TestJob-82
+[main] [22-08-2023:071904-513406468-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 174 ms before new job(TestJob-115:115) was added
+
+[job] [22-08-2023:071904-513664296-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(115:TestJob-115) starts.
+[main] [22-08-2023:071904-648083496-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 134 ms before new job(TestJob-116:116) was added
+
+[job] [22-08-2023:071904-648395249-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(116:TestJob-116) starts.
+[main] [22-08-2023:071904-795747142-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 147 ms before new job(TestJob-117:117) was added
+
+[job] [22-08-2023:071904-795950843-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(117:TestJob-117) starts.
+[main] [22-08-2023:071904-997554269-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 201 ms before new job(TestJob-118:118) was added
+
+[job] [22-08-2023:071904-997820781-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(118:TestJob-118) starts.
+[main] [22-08-2023:071905-146218500-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 148 ms before new job(TestJob-119:119) was added
+
+[job] [22-08-2023:071905-146375184-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(119:TestJob-119) starts.
+[job] [22-08-2023:071905-153574685-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(16:TestJob-16) executed for 20500 ms
+[job] [22-08-2023:071905-153665342-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 16:TestJob-16
+[main] [22-08-2023:071905-276130347-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 129 ms before new job(TestJob-120:120) was added
+
+[job] [22-08-2023:071905-276461615-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(120:TestJob-120) starts.
+[main] [22-08-2023:071905-462841728-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 186 ms before new job(TestJob-121:121) was added
+
+[job] [22-08-2023:071905-463142575-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(121:TestJob-121) starts.
+[main] [22-08-2023:071905-648542046-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 185 ms before new job(TestJob-122:122) was added
+
+[job] [22-08-2023:071905-648810817-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(122:TestJob-122) starts.
+[job] [22-08-2023:071905-668859351-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(96:TestJob-96) executed for 5180 ms
+[job] [22-08-2023:071905-669008632-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 96:TestJob-96
+[main] [22-08-2023:071905-830359916-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 181 ms before new job(TestJob-123:123) was added
+
+[job] [22-08-2023:071905-830674895-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(123:TestJob-123) starts.
+[main] [22-08-2023:071906-14029832-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 183 ms before new job(TestJob-124:124) was added
+
+[job] [22-08-2023:071906-14291858-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(124:TestJob-124) starts.
+[job] [22-08-2023:071906-168695184-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(99:TestJob-99) executed for 5106 ms
+[job] [22-08-2023:071906-168873153-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 99:TestJob-99
+[main] [22-08-2023:071906-239130687-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 224 ms before new job(TestJob-125:125) was added
+
+[job] [22-08-2023:071906-239397701-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(125:TestJob-125) starts.
+[main] [22-08-2023:071906-475861247-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 236 ms before new job(TestJob-126:126) was added
+
+[job] [22-08-2023:071906-504235116-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(31:TestJob-31) executed for 19102 ms
+[job] [22-08-2023:071906-504397835-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 31:TestJob-31
+[job] [22-08-2023:071906-504663530-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(126:TestJob-126) starts.
+[main] [22-08-2023:071906-727813168-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 251 ms before new job(TestJob-127:127) was added
+
+[main] [22-08-2023:071906-846403105-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 118 ms before new job(TestJob-128:128) was added
+
+[job] [22-08-2023:071907-46955250-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(108:TestJob-108) executed for 3964 ms
+[job] [22-08-2023:071907-47130498-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 108:TestJob-108
+[job] [22-08-2023:071907-47455766-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(127:TestJob-127) starts.
+[main] [22-08-2023:071907-47794586-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 201 ms before new job(TestJob-129:129) was added
+
+[job] [22-08-2023:071907-187519648-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(11:TestJob-11) executed for 23405 ms
+[job] [22-08-2023:071907-187715828-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 11:TestJob-11
+[job] [22-08-2023:071907-187942691-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(128:TestJob-128) starts.
+[main] [22-08-2023:071907-241853633-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 193 ms before new job(TestJob-130:130) was added
+
+[main] [22-08-2023:071907-529597275-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 287 ms before new job(TestJob-131:131) was added
+
+[job] [22-08-2023:071907-653969999-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(5:TestJob-5) executed for 25141 ms
+[job] [22-08-2023:071907-654137793-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 5:TestJob-5
+[job] [22-08-2023:071907-654487147-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(129:TestJob-129) starts.
+[main] [22-08-2023:071907-693282174-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 163 ms before new job(TestJob-132:132) was added
+
+[main] [22-08-2023:071907-941201035-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 247 ms before new job(TestJob-133:133) was added
+
+[main] [22-08-2023:071908-107923756-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 166 ms before new job(TestJob-134:134) was added
+
+[main] [22-08-2023:071908-353884417-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 245 ms before new job(TestJob-135:135) was added
+
+[main] [22-08-2023:071908-465530370-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 111 ms before new job(TestJob-136:136) was added
+
+[main] [22-08-2023:071908-659330764-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 193 ms before new job(TestJob-137:137) was added
+
+[main] [22-08-2023:071908-932110788-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 272 ms before new job(TestJob-138:138) was added
+
+[main] [22-08-2023:071909-95904074-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 163 ms before new job(TestJob-139:139) was added
+
+[main] [22-08-2023:071909-251735142-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 155 ms before new job(TestJob-140:140) was added
+
+[main] [22-08-2023:071909-375403840-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 123 ms before new job(TestJob-141:141) was added
+
+[job] [22-08-2023:071909-406765024-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(52:TestJob-52) executed for 17901 ms
+[job] [22-08-2023:071909-406909842-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 52:TestJob-52
+[job] [22-08-2023:071909-407164343-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(130:TestJob-130) starts.
+[main] [22-08-2023:071909-604329346-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 228 ms before new job(TestJob-142:142) was added
+
+[job] [22-08-2023:071909-804871940-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(65:TestJob-65) executed for 15605 ms
+[job] [22-08-2023:071909-805056109-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 65:TestJob-65
+[job] [22-08-2023:071909-805326897-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(131:TestJob-131) starts.
+[main] [22-08-2023:071909-805600916-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 201 ms before new job(TestJob-143:143) was added
+
+[main] [22-08-2023:071909-912429327-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 106 ms before new job(TestJob-144:144) was added
+
+[main] [22-08-2023:071910-71168502-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 158 ms before new job(TestJob-145:145) was added
+
+[main] [22-08-2023:071910-219899036-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 148 ms before new job(TestJob-146:146) was added
+
+[main] [22-08-2023:071910-337458895-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 117 ms before new job(TestJob-147:147) was added
+
+[main] [22-08-2023:071910-473168512-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 135 ms before new job(TestJob-148:148) was added
+
+[main] [22-08-2023:071910-752017969-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 278 ms before new job(TestJob-149:149) was added
+
+[job] [22-08-2023:071910-794418603-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(42:TestJob-42) executed for 21295 ms
+[job] [22-08-2023:071910-794595194-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 42:TestJob-42
+[job] [22-08-2023:071910-794793906-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(132:TestJob-132) starts.
+[job] [22-08-2023:071910-824972818-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(58:TestJob-58) executed for 18100 ms
+[job] [22-08-2023:071910-825133131-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 58:TestJob-58
+[job] [22-08-2023:071910-825305654-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(133:TestJob-133) starts.
+[main] [22-08-2023:071910-943373786-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 191 ms before new job(TestJob-150:150) was added
+
+[main] [22-08-2023:071911-90087771-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 146 ms before new job(TestJob-151:151) was added
+
+[job] [22-08-2023:071911-249695222-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(59:TestJob-59) executed for 18250 ms
+[job] [22-08-2023:071911-249858386-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 59:TestJob-59
+[job] [22-08-2023:071911-250048315-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(134:TestJob-134) starts.
+[job] [22-08-2023:071911-281049546-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(75:TestJob-75) executed for 15359 ms
+[job] [22-08-2023:071911-281246885-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 75:TestJob-75
+[job] [22-08-2023:071911-281494281-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(135:TestJob-135) starts.
+[main] [22-08-2023:071911-381407337-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 291 ms before new job(TestJob-152:152) was added
+
+[job] [22-08-2023:071911-491881426-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(66:TestJob-66) executed for 17143 ms
+[job] [22-08-2023:071911-492044440-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 66:TestJob-66
+[job] [22-08-2023:071911-492226762-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(136:TestJob-136) starts.
+[main] [22-08-2023:071911-672430758-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 290 ms before new job(TestJob-153:153) was added
+
+[main] [22-08-2023:071911-897189935-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 224 ms before new job(TestJob-154:154) was added
+
+[job] [22-08-2023:071911-919443245-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(30:TestJob-30) executed for 24663 ms
+[job] [22-08-2023:071911-919645220-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 30:TestJob-30
+[job] [22-08-2023:071911-919858869-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(137:TestJob-137) starts.
+[main] [22-08-2023:071912-21889930-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 124 ms before new job(TestJob-155:155) was added
+
+[main] [22-08-2023:071912-234629341-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 212 ms before new job(TestJob-156:156) was added
+
+[main] [22-08-2023:071912-403374372-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 168 ms before new job(TestJob-157:157) was added
+
+[job] [22-08-2023:071912-437740277-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(4:TestJob-4) executed for 30080 ms
+[job] [22-08-2023:071912-437935363-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 4:TestJob-4
+[job] [22-08-2023:071912-438200225-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(138:TestJob-138) starts.
+[main] [22-08-2023:071912-638425054-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 234 ms before new job(TestJob-158:158) was added
+
+[job] [22-08-2023:071912-671808512-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(43:TestJob-43) executed for 22912 ms
+[job] [22-08-2023:071912-671980658-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 43:TestJob-43
+[job] [22-08-2023:071912-672225436-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(139:TestJob-139) starts.
+[main] [22-08-2023:071912-741133293-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 102 ms before new job(TestJob-159:159) was added
+
+[job] [22-08-2023:071912-760642628-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(124:TestJob-124) executed for 6745 ms
+[job] [22-08-2023:071912-760788194-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 124:TestJob-124
+[job] [22-08-2023:071912-761040498-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(140:TestJob-140) starts.
+[main] [22-08-2023:071912-993255152-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 251 ms before new job(TestJob-160:160) was added
+
+[main] [22-08-2023:071913-139066531-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 145 ms before new job(TestJob-161:161) was added
+
+[main] [22-08-2023:071913-408984926-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 269 ms before new job(TestJob-162:162) was added
+
+[main] [22-08-2023:071913-634836672-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 225 ms before new job(TestJob-163:163) was added
+
+[main] [22-08-2023:071913-864542543-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 229 ms before new job(TestJob-164:164) was added
+
+[job] [22-08-2023:071913-935957917-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(73:TestJob-73) executed for 18239 ms
+[job] [22-08-2023:071913-936141580-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 73:TestJob-73
+[job] [22-08-2023:071913-936390281-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(141:TestJob-141) starts.
+[main] [22-08-2023:071914-18371742-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 153 ms before new job(TestJob-165:165) was added
+
+[main] [22-08-2023:071914-166043906-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 147 ms before new job(TestJob-166:166) was added
+
+[main] [22-08-2023:071914-270793896-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 104 ms before new job(TestJob-167:167) was added
+
+[job] [22-08-2023:071914-359360370-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(129:TestJob-129) executed for 6704 ms
+[job] [22-08-2023:071914-359539316-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 129:TestJob-129
+[job] [22-08-2023:071914-359749798-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(142:TestJob-142) starts.
+[main] [22-08-2023:071914-378710878-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 107 ms before new job(TestJob-168:168) was added
+
+[main] [22-08-2023:071914-670665539-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 291 ms before new job(TestJob-169:169) was added
+
+[job] [22-08-2023:071914-695014996-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(70:TestJob-70) executed for 19602 ms
+[job] [22-08-2023:071914-695215079-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 70:TestJob-70
+[job] [22-08-2023:071914-695426822-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(143:TestJob-143) starts.
+[job] [22-08-2023:071914-926591035-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(28:TestJob-28) executed for 28116 ms
+[job] [22-08-2023:071914-926762342-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 28:TestJob-28
+[job] [22-08-2023:071914-926955494-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(144:TestJob-144) starts.
+[job] [22-08-2023:071914-935160233-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(79:TestJob-79) executed for 18061 ms
+[job] [22-08-2023:071914-935350348-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 79:TestJob-79
+[job] [22-08-2023:071914-935609840-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(145:TestJob-145) starts.
+[main] [22-08-2023:071914-951499233-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 280 ms before new job(TestJob-170:170) was added
+
+[main] [22-08-2023:071915-102324444-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 150 ms before new job(TestJob-171:171) was added
+
+[main] [22-08-2023:071915-252031690-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 149 ms before new job(TestJob-172:172) was added
+
+[job] [22-08-2023:071915-342389859-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(130:TestJob-130) executed for 5935 ms
+[job] [22-08-2023:071915-342531443-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 130:TestJob-130
+[job] [22-08-2023:071915-342772290-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(146:TestJob-146) starts.
+[main] [22-08-2023:071915-407835530-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 155 ms before new job(TestJob-173:173) was added
+
+[main] [22-08-2023:071915-529507933-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 121 ms before new job(TestJob-174:174) was added
+
+[main] [22-08-2023:071915-704286189-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 174 ms before new job(TestJob-175:175) was added
+
+[job] [22-08-2023:071915-817653887-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(21:TestJob-21) executed for 30265 ms
+[job] [22-08-2023:071915-817852206-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 21:TestJob-21
+[job] [22-08-2023:071915-818123585-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(147:TestJob-147) starts.
+[main] [22-08-2023:071915-903121283-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 198 ms before new job(TestJob-176:176) was added
+
+[main] [22-08-2023:071916-84966504-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 181 ms before new job(TestJob-177:177) was added
+
+[main] [22-08-2023:071916-300868960-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 215 ms before new job(TestJob-178:178) was added
+
+[main] [22-08-2023:071916-546759290-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 245 ms before new job(TestJob-179:179) was added
+
+[main] [22-08-2023:071916-830722185-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 283 ms before new job(TestJob-180:180) was added
+
+[job] [22-08-2023:071916-885091498-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(44:TestJob-44) executed for 27008 ms
+[job] [22-08-2023:071916-885271256-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 44:TestJob-44
+[job] [22-08-2023:071916-885507891-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(148:TestJob-148) starts.
+[main] [22-08-2023:071917-42633601-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 211 ms before new job(TestJob-181:181) was added
+
+[job] [22-08-2023:071917-186114978-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(78:TestJob-78) executed for 20556 ms
+[job] [22-08-2023:071917-186286754-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 78:TestJob-78
+[job] [22-08-2023:071917-186637180-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(149:TestJob-149) starts.
+[main] [22-08-2023:071917-320726914-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 277 ms before new job(TestJob-182:182) was added
+
+[job] [22-08-2023:071917-335063596-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(137:TestJob-137) executed for 5414 ms
+[job] [22-08-2023:071917-335350769-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 137:TestJob-137
+[job] [22-08-2023:071917-335682127-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(150:TestJob-150) starts.
+[main] [22-08-2023:071917-490557402-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 169 ms before new job(TestJob-183:183) was added
+
+[main] [22-08-2023:071917-748332748-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 257 ms before new job(TestJob-184:184) was added
+
+[main] [22-08-2023:071917-887140261-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 138 ms before new job(TestJob-185:185) was added
+
+[job] [22-08-2023:071917-898526639-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(9:TestJob-9) executed for 34484 ms
+[job] [22-08-2023:071917-898716101-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 9:TestJob-9
+[job] [22-08-2023:071917-898931676-IST] [DEBUG] [sampleapp/job/job.go +38]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(151:TestJob-151) starts.
+
+WARNING: received termination.
+[main] [22-08-2023:071918-148229506-IST] [DEBUG] [main/main.go +51]@[main.addjobs]:
+[wp1:1]  waited for 260 ms before new job(TestJob-186:186) was added
+
+[main] [22-08-2023:071918-148469329-IST] [WARNING] [main/main.go +38]@[main.addjobs]:
+got ctx cancel.
+[main] [22-08-2023:071918-148575770-IST] [WARNING] [main/main.go +29]@[main.addjobs.func1]:
+exiting.
+[job] [22-08-2023:071918-246548913-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(71:TestJob-71) executed for 23010 ms
+[job] [22-08-2023:071918-246773231-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 71:TestJob-71
+[job] [22-08-2023:071918-247093052-IST] [WARNING] [sampleapp/job/job.go +34]@[sampleapp/job.TestJobData.Process]:
+[152] ProcessJob ctx.Cancel: TestJob-152,  value: struct {}{}
+
+[job] [22-08-2023:071918-247254355-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 152:TestJob-152
+[job] [22-08-2023:071918-305878478-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(24:TestJob-24) executed for 32290 ms
+[job] [22-08-2023:071918-306085859-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 24:TestJob-24
+[job] [22-08-2023:071918-330293983-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(15:TestJob-15) executed for 33876 ms
+[job] [22-08-2023:071918-330493674-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 15:TestJob-15
+[job] [22-08-2023:071918-484686847-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(90:TestJob-90) executed for 19506 ms
+[job] [22-08-2023:071918-484857599-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 90:TestJob-90
+[job] [22-08-2023:071918-631010732-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(142:TestJob-142) executed for 4271 ms
+[job] [22-08-2023:071918-631204547-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 142:TestJob-142
+[job] [22-08-2023:071919-499164893-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(48:TestJob-48) executed for 28810 ms
+[job] [22-08-2023:071919-499370286-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 48:TestJob-48
+[job] [22-08-2023:071920-151007467-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(127:TestJob-127) executed for 13103 ms
+[job] [22-08-2023:071920-151150041-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 127:TestJob-127
+[job] [22-08-2023:071920-207530251-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(119:TestJob-119) executed for 15060 ms
+[job] [22-08-2023:071920-207738368-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 119:TestJob-119
+[job] [22-08-2023:071920-376002353-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(62:TestJob-62) executed for 26813 ms
+[job] [22-08-2023:071920-376194655-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 62:TestJob-62
+[job] [22-08-2023:071920-772730669-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(109:TestJob-109) executed for 17465 ms
+[job] [22-08-2023:071920-772896545-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 109:TestJob-109
+[job] [22-08-2023:071921-350595871-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(117:TestJob-117) executed for 16554 ms
+[job] [22-08-2023:071921-350775224-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 117:TestJob-117
+[job] [22-08-2023:071921-857412977-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(33:TestJob-33) executed for 34109 ms
+[job] [22-08-2023:071921-857587175-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 33:TestJob-33
+[job] [22-08-2023:071922-160945327-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(136:TestJob-136) executed for 10668 ms
+[job] [22-08-2023:071922-161137725-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 136:TestJob-136
+[job] [22-08-2023:071923-130198098-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(76:TestJob-76) executed for 26965 ms
+[job] [22-08-2023:071923-130388163-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 76:TestJob-76
+[job] [22-08-2023:071923-304872990-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(47:TestJob-47) executed for 32778 ms
+[job] [22-08-2023:071923-305038143-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 47:TestJob-47
+[job] [22-08-2023:071923-817672473-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(100:TestJob-100) executed for 22470 ms
+[job] [22-08-2023:071923-817831223-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 100:TestJob-100
+[job] [22-08-2023:071924-465475087-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(118:TestJob-118) executed for 19467 ms
+[job] [22-08-2023:071924-465665942-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 118:TestJob-118
+[job] [22-08-2023:071924-629905097-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(39:TestJob-39) executed for 35709 ms
+[job] [22-08-2023:071924-630081896-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 39:TestJob-39
+[job] [22-08-2023:071924-657049144-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(23:TestJob-23) executed for 38770 ms
+[job] [22-08-2023:071924-657213649-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 23:TestJob-23
+[job] [22-08-2023:071924-689346164-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(14:TestJob-14) executed for 40374 ms
+[job] [22-08-2023:071924-689513280-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 14:TestJob-14
+[job] [22-08-2023:071924-727608688-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(56:TestJob-56) executed for 32282 ms
+[job] [22-08-2023:071924-727764748-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 56:TestJob-56
+[job] [22-08-2023:071925-633789430-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(141:TestJob-141) executed for 11697 ms
+[job] [22-08-2023:071925-633977679-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 141:TestJob-141
+[job] [22-08-2023:071925-816364429-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(114:TestJob-114) executed for 21477 ms
+[job] [22-08-2023:071925-816550520-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 114:TestJob-114
+[job] [22-08-2023:071926-640964348-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(97:TestJob-97) executed for 26043 ms
+[job] [22-08-2023:071926-641128448-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 97:TestJob-97
+[job] [22-08-2023:071926-866446166-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(123:TestJob-123) executed for 21035 ms
+[job] [22-08-2023:071926-866622657-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 123:TestJob-123
+[job] [22-08-2023:071927-102914545-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(69:TestJob-69) executed for 32183 ms
+[job] [22-08-2023:071927-103098036-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 69:TestJob-69
+[job] [22-08-2023:071927-141414008-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(91:TestJob-91) executed for 27874 ms
+[job] [22-08-2023:071927-141583382-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 91:TestJob-91
+[job] [22-08-2023:071927-295042890-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(146:TestJob-146) executed for 11951 ms
+[job] [22-08-2023:071927-295189300-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 146:TestJob-146
+[job] [22-08-2023:071927-305542386-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(132:TestJob-132) executed for 16510 ms
+[job] [22-08-2023:071927-305707633-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 132:TestJob-132
+[job] [22-08-2023:071927-843591518-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(111:TestJob-111) executed for 24136 ms
+[job] [22-08-2023:071927-843763054-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 111:TestJob-111
+[job] [22-08-2023:071928-499458817-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(60:TestJob-60) executed for 35256 ms
+[job] [22-08-2023:071928-499677951-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 60:TestJob-60
+[job] [22-08-2023:071929-749907155-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(101:TestJob-101) executed for 28181 ms
+[job] [22-08-2023:071929-750080461-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 101:TestJob-101
+[job] [22-08-2023:071930-203756007-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(145:TestJob-145) executed for 15267 ms
+[job] [22-08-2023:071930-203898962-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 145:TestJob-145
+[job] [22-08-2023:071930-573340829-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(57:TestJob-57) executed for 37977 ms
+[job] [22-08-2023:071930-573520071-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 57:TestJob-57
+[job] [22-08-2023:071930-877942852-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(83:TestJob-83) executed for 33351 ms
+[job] [22-08-2023:071930-878136946-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 83:TestJob-83
+[job] [22-08-2023:071932-427697681-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(116:TestJob-116) executed for 27778 ms
+[job] [22-08-2023:071932-427875941-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 116:TestJob-116
+[job] [22-08-2023:071932-484124366-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(85:TestJob-85) executed for 34564 ms
+[job] [22-08-2023:071932-484302325-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 85:TestJob-85
+[job] [22-08-2023:071932-855823780-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(80:TestJob-80) executed for 35857 ms
+[job] [22-08-2023:071932-855995011-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 80:TestJob-80
+[job] [22-08-2023:071932-873103284-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(77:TestJob-77) executed for 36422 ms
+[job] [22-08-2023:071932-873272703-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 77:TestJob-77
+[job] [22-08-2023:071933-530003105-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(139:TestJob-139) executed for 20857 ms
+[job] [22-08-2023:071933-530175835-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 139:TestJob-139
+[job] [22-08-2023:071933-873531101-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(19:TestJob-19) executed for 48602 ms
+[job] [22-08-2023:071933-873714674-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 19:TestJob-19
+[job] [22-08-2023:071933-933764573-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(103:TestJob-103) executed for 31995 ms
+[job] [22-08-2023:071933-933940727-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 103:TestJob-103
+[job] [22-08-2023:071934-478617128-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(8:TestJob-8) executed for 51334 ms
+[job] [22-08-2023:071934-478790765-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 8:TestJob-8
+[job] [22-08-2023:071934-982504814-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(120:TestJob-120) executed for 29705 ms
+[job] [22-08-2023:071934-982682697-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 120:TestJob-120
+[job] [22-08-2023:071935-112878295-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(98:TestJob-98) executed for 34252 ms
+[job] [22-08-2023:071935-113045527-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 98:TestJob-98
+[job] [22-08-2023:071935-502544242-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(121:TestJob-121) executed for 30039 ms
+[job] [22-08-2023:071935-502721780-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 121:TestJob-121
+[job] [22-08-2023:071935-793169251-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(50:TestJob-50) executed for 44674 ms
+[job] [22-08-2023:071935-793341432-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 50:TestJob-50
+[job] [22-08-2023:071936-528287051-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(26:TestJob-26) executed for 50042 ms
+[job] [22-08-2023:071936-528446333-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 26:TestJob-26
+[job] [22-08-2023:071936-650760054-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(115:TestJob-115) executed for 32136 ms
+[job] [22-08-2023:071936-650931616-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 115:TestJob-115
+[job] [22-08-2023:071937-284562157-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(95:TestJob-95) executed for 37061 ms
+[job] [22-08-2023:071937-284731912-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 95:TestJob-95
+[job] [22-08-2023:071937-765342751-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(13:TestJob-13) executed for 53574 ms
+[job] [22-08-2023:071937-765525121-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 13:TestJob-13
+[job] [22-08-2023:071937-774885254-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(138:TestJob-138) executed for 25336 ms
+[job] [22-08-2023:071937-775054843-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 138:TestJob-138
+[job] [22-08-2023:071937-983370429-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(18:TestJob-18) executed for 52902 ms
+[job] [22-08-2023:071937-983558827-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 18:TestJob-18
+[job] [22-08-2023:071939-793350463-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(29:TestJob-29) executed for 52757 ms
+[job] [22-08-2023:071939-793532416-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 29:TestJob-29
+[job] [22-08-2023:071940-49977026-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(74:TestJob-74) executed for 44230 ms
+[job] [22-08-2023:071940-50145820-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 74:TestJob-74
+[job] [22-08-2023:071940-692882016-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(147:TestJob-147) executed for 24874 ms
+[job] [22-08-2023:071940-693009171-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 147:TestJob-147
+[job] [22-08-2023:071941-247687379-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(106:TestJob-106) executed for 38731 ms
+[job] [22-08-2023:071941-247818288-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 106:TestJob-106
+[job] [22-08-2023:071941-405174707-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(72:TestJob-72) executed for 45925 ms
+[job] [22-08-2023:071941-405342588-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 72:TestJob-72
+[job] [22-08-2023:071941-535465505-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(107:TestJob-107) executed for 38727 ms
+[job] [22-08-2023:071941-535666514-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 107:TestJob-107
+[job] [22-08-2023:071941-809935175-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(126:TestJob-126) executed for 35305 ms
+[job] [22-08-2023:071941-810083536-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 126:TestJob-126
+[job] [22-08-2023:071942-424775687-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(35:TestJob-35) executed for 54221 ms
+[job] [22-08-2023:071942-424981088-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 35:TestJob-35
+[job] [22-08-2023:071943-174675679-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(113:TestJob-113) executed for 39019 ms
+[job] [22-08-2023:071943-174846680-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 113:TestJob-113
+[job] [22-08-2023:071943-293109650-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(10:TestJob-10) executed for 59631 ms
+[job] [22-08-2023:071943-293292024-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 10:TestJob-10
+[job] [22-08-2023:071943-542615596-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(102:TestJob-102) executed for 41754 ms
+[job] [22-08-2023:071943-542770456-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 102:TestJob-102
+[job] [22-08-2023:071943-820136853-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(27:TestJob-27) executed for 57119 ms
+[job] [22-08-2023:071943-820335460-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 27:TestJob-27
+[job] [22-08-2023:071944-744288458-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(87:TestJob-87) executed for 46405 ms
+[job] [22-08-2023:071944-744450366-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 87:TestJob-87
+[job] [22-08-2023:071944-928775728-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(37:TestJob-37) executed for 56416 ms
+[job] [22-08-2023:071944-928956989-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 37:TestJob-37
+[job] [22-08-2023:071945-388409385-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(40:TestJob-40) executed for 56213 ms
+[job] [22-08-2023:071945-388594735-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 40:TestJob-40
+[job] [22-08-2023:071945-464829032-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(64:TestJob-64) executed for 51509 ms
+[job] [22-08-2023:071945-465001648-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 64:TestJob-64
+[job] [22-08-2023:071945-543060732-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(92:TestJob-92) executed for 46025 ms
+[job] [22-08-2023:071945-543207991-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 92:TestJob-92
+[job] [22-08-2023:071946-18007748-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(86:TestJob-86) executed for 47960 ms
+[job] [22-08-2023:071946-18178335-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 86:TestJob-86
+[job] [22-08-2023:071946-451750259-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(54:TestJob-54) executed for 54482 ms
+[job] [22-08-2023:071946-451913689-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 54:TestJob-54
+[job] [22-08-2023:071946-941458735-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(51:TestJob-51) executed for 55719 ms
+[job] [22-08-2023:071946-941645901-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 51:TestJob-51
+[job] [22-08-2023:071946-998792514-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(68:TestJob-68) executed for 52300 ms
+[job] [22-08-2023:071946-998965010-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 68:TestJob-68
+[job] [22-08-2023:071947-174247264-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(38:TestJob-38) executed for 58468 ms
+[job] [22-08-2023:071947-174422118-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 38:TestJob-38
+[job] [22-08-2023:071947-850159379-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(46:TestJob-46) executed for 57586 ms
+[job] [22-08-2023:071947-850372649-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 46:TestJob-46
+[job] [22-08-2023:071947-915368268-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(125:TestJob-125) executed for 41675 ms
+[job] [22-08-2023:071947-915527726-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 125:TestJob-125
+[job] [22-08-2023:071948-268077189-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(55:TestJob-55) executed for 56012 ms
+[job] [22-08-2023:071948-268273831-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 55:TestJob-55
+[job] [22-08-2023:071948-592557808-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(45:TestJob-45) executed for 58537 ms
+[job] [22-08-2023:071948-592725044-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 45:TestJob-45
+[job] [22-08-2023:071949-168418299-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(93:TestJob-93) executed for 49419 ms
+[job] [22-08-2023:071949-168591170-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 93:TestJob-93
+[job] [22-08-2023:071949-300919406-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(84:TestJob-84) executed for 51513 ms
+[job] [22-08-2023:071949-301093357-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 84:TestJob-84
+[job] [22-08-2023:071949-698596094-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(149:TestJob-149) executed for 32511 ms
+[job] [22-08-2023:071949-698774474-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 149:TestJob-149
+[job] [22-08-2023:071951-169271741-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(131:TestJob-131) executed for 41363 ms
+[job] [22-08-2023:071951-169356780-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 131:TestJob-131
+[job] [22-08-2023:071951-867335923-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(134:TestJob-134) executed for 40617 ms
+[job] [22-08-2023:071951-867525382-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 134:TestJob-134
+[job] [22-08-2023:071953-146859321-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(112:TestJob-112) executed for 49218 ms
+[job] [22-08-2023:071953-147067614-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 112:TestJob-112
+[job] [22-08-2023:071953-636526855-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(105:TestJob-105) executed for 51242 ms
+[job] [22-08-2023:071953-636696894-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 105:TestJob-105
+[job] [22-08-2023:071954-46362298-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(143:TestJob-143) executed for 39350 ms
+[job] [22-08-2023:071954-46536512-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 143:TestJob-143
+[job] [22-08-2023:071954-364949850-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(94:TestJob-94) executed for 54397 ms
+[job] [22-08-2023:071954-365121124-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 94:TestJob-94
+[job] [22-08-2023:071954-703663486-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(148:TestJob-148) executed for 37817 ms
+[job] [22-08-2023:071954-703856561-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 148:TestJob-148
+[job] [22-08-2023:071955-166262279-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(140:TestJob-140) executed for 42405 ms
+[job] [22-08-2023:071955-166332698-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 140:TestJob-140
+[job] [22-08-2023:071956-409162862-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(150:TestJob-150) executed for 39073 ms
+[job] [22-08-2023:071956-409339240-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 150:TestJob-150
+[job] [22-08-2023:071956-915989367-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(122:TestJob-122) executed for 51266 ms
+[job] [22-08-2023:071956-916175977-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 122:TestJob-122
+[job] [22-08-2023:071957-258419045-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(88:TestJob-88) executed for 58684 ms
+[job] [22-08-2023:071957-258589083-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 88:TestJob-88
+[job] [22-08-2023:072001-66492001-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(104:TestJob-104) executed for 58923 ms
+[job] [22-08-2023:072001-66663593-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 104:TestJob-104
+[job] [22-08-2023:072002-190896900-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(110:TestJob-110) executed for 58686 ms
+[job] [22-08-2023:072002-191082415-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 110:TestJob-110
+[job] [22-08-2023:072003-679462254-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(128:TestJob-128) executed for 56491 ms
+[job] [22-08-2023:072003-679652509-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 128:TestJob-128
+[job] [22-08-2023:072003-988993318-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(135:TestJob-135) executed for 52707 ms
+[job] [22-08-2023:072003-989174602-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 135:TestJob-135
+[job] [22-08-2023:072007-779656220-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(133:TestJob-133) executed for 56951 ms
+[job] [22-08-2023:072007-779844613-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 133:TestJob-133
+[job] [22-08-2023:072008-876976829-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(144:TestJob-144) executed for 53949 ms
+[job] [22-08-2023:072008-877144087-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 144:TestJob-144
+[job] [22-08-2023:072012-841219716-IST] [DEBUG] [sampleapp/job/job.go +44]@[sampleapp/job.TestJobData.Process]:
+TestJobData process(151:TestJob-151) executed for 54938 ms
+[job] [22-08-2023:072012-841400979-IST] [DEBUG] [sampleapp/job/job.go +28]@[sampleapp/job.TestJobData.Process.func1]:
+job done: 151:TestJob-151
+#### [main] [22-08-2023:072012-841566580-IST] [DBGRM] [main/main.go +104]@[main.main]:
+ch-2
+[WARNING]:: received logger termination. logger exiting (0).
+[WARNING]:: breaking out on closed log message-queue. starting to flush all the blocked logs.
+logger exited.
+INFO: application stopped (true).
+[33399@pts5::sinharan@192.168.29.237]$

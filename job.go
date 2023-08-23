@@ -18,5 +18,5 @@ func (pwp *WorkerPool) AddJob(job JobProcessor) {
 		Data: job,
 	}
 
-	pwp.jobPool <- j
+	pwp.jobq <- j
 }
