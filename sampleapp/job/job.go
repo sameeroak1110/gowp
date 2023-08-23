@@ -38,8 +38,8 @@ func (job TestJobData) Process(ctx context.Context) (interface{}, error) {
 			logger.Log(pkgname, logger.DEBUG, "TestJobData process(%d:%s) starts.", job.ID, job.Name)
 			//execForMS := helper.RandomInt(5000, 10000)
 			//execForMS := helper.RandomInt(15000, 20000)
-			//execForMS := helper.RandomInt(5000, 80000)
-			execForMS := helper.RandomInt(3000, 60000)
+			//execForMS := helper.RandomInt(5000, 8000)
+			execForMS := helper.RandomInt(3000, 6000)
 			time.Sleep(time.Duration(execForMS) * time.Millisecond)
 			logger.Log(pkgname, logger.DEBUG, "TestJobData process(%d:%s) executed for %d ms", job.ID, job.Name, execForMS)
 	}
