@@ -121,12 +121,26 @@ func (pwp *WorkerPool) Start(ctx context.Context, pwg *sync.WaitGroup)
 ```
 main() of sampleapp shows how to invoke this function.
 
-A worker is assigned for a job which is pulled out from a jobpool.
+A job is added to the worker-pool through method Add() on pointer receiver of type WorkerPool.
+```
+func (pwp *WorkerPool) AddJob(job JobProcessor)
+```
+main() of sampleapp has addjobs() function that demonstrates how jobs are added to a worker-pool.
+
+
+A job is pulled out from jobq and a worker is assigned to handle the pulled job.
 Method (*WorkerPool).exec() executes the job. A variable of type Job has a member Data of type
-JobProcessor interface. Upstream that publishes job should implement this interface so that
-exec() method can invoke the actual job processing method.
+JobProcessor interface. Upstream publishes job as an object of some type **t** where **t** should implement this interface so that exec() method can invoke the actual implementation of Process() methods
+over object of **t**.
 Please go through the sampleapp for the example.
 
 
 ## Sample application
-Sample application has a function
+Sample application has a function function addjobs(). It's invoked as a go-routine. addjobs() publlishes
+jobs until parent context created in the main() is cancelled.
+The sampleapp is using a logger (github.com/sameeroak1110/logger) package. The logger package is supposed to exit in the last so as to allow each job processor dump the logs.
+Before application ends, main() waits for all the remaining logs to get flushed out.
+It's a good practice to do final clean up before the application exits.
+
+TestJobData implements JobProcessor interface. addjobs() function is publishing jobs each of
+type TestJobData.
