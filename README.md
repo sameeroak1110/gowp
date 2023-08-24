@@ -22,7 +22,7 @@ The best way is through creating a team of fixed number of go-routines.
 Thus, each go-routine in the team may either be free or be executing a job at any given instance
 in time. This team of go-routines is a go-routine pool, also termed as worker-pool in generic terms.
 
-## Implementation strategies
+## Implementation
 A simple implementation strategy is by using buffered channel, one each for jobs and workers.
 Workers are meant to work on the jobs. The jobs are published by any upstream application.
 It'd rather be more appropriate to implement worker-pool as a distributed application rather than
@@ -138,9 +138,35 @@ Please go through the sampleapp for the example.
 ## Sample application
 Sample application has a function function addjobs(). It's invoked as a go-routine. addjobs() publlishes
 jobs until parent context created in the main() is cancelled.
-The sampleapp is using a logger (github.com/sameeroak1110/logger) package. The logger package is supposed to exit in the last so as to allow each job processor dump the logs.
+The sampleapp is using a logger (github.com/sameeroak1110/logger) package. The logger package is supposed to exit in the last so as to allow each job processor dump the logs. This example application
+is executing each job processor method to end gracefully rather than
 Before application ends, main() waits for all the remaining logs to get flushed out.
 It's a good practice to do final clean up before the application exits.
 
 TestJobData implements JobProcessor interface. addjobs() function is publishing jobs each of
 type TestJobData.
+
+## TODO
+gowp package doesn't have result processing enabled at present. The way the result can be processed is
+only known to the application that uses gowp. It's, therefore, a good idea to define an interface with
+method for job result process.
+
+There can be following interfaces.
+```
+type JobProcessor interface {
+    GetName() string
+    Process(context.Context) (JobResultProcessor, error)
+}       
+
+type JobResultProcessor interface {
+    ProcessResult(context.Context) (interface{}, error)
+}
+```
+
+Method Process() of JobProcessor returns an object of type JobresultProcessor. ProcessResult() method
+of JobresultProcessor interface is supposed to deal with the result.
+
+On cancellation of the parent context, it's possible that job queue still has some jobs that're
+yet to be served. exec() method waits for the job processing go-routine to finish.
+In turn, the Start() method waits for all the job processing go-routines to finish. This may result
+some jobs being dropped from the job queue.

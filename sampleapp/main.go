@@ -34,7 +34,6 @@ func addjobs(ctx context.Context, pwg *sync.WaitGroup, pwp *gowp.WorkerPool) {
 	for {
 		select {
 			case <-ctx.Done():
-			//case <-pwp.GetContext().Done():
 				logger.Log(pkgname, logger.WARNING, "got ctx cancel.")
 				return
 
@@ -49,7 +48,6 @@ func addjobs(ctx context.Context, pwg *sync.WaitGroup, pwp *gowp.WorkerPool) {
 				time.Sleep(time.Duration(waitForMS) * time.Millisecond)
 				pwp.AddJob(job)
 				logger.Log(pkgname, logger.DEBUG, "[%s:%d]  waited for %d ms before new job(%s:%d) was added\n", pwp.Name, pwp.ID, waitForMS, job.Name, job.ID)
-				//fmt.Printf("[addJobs]  DEBUG: [%s:%d]  waited for %d ms before new job(%s:%d) was added\n", pwp.Name, pwp.ID, waitForMS, job.Name, job.ID)
 				i++
 		}
 	}
@@ -68,9 +66,7 @@ func main() {
 
 	wg := sync.WaitGroup{}
 
-	//endapp:= make(chan bool)
 	appdone := make(chan bool)
-	//if isSuccess := logger.Init(ctxAppEnd, endapp, appdone, false, "./", "DEBUG"); !isSuccess {
 	if isSuccess := logger.Init(ctxAppEnd, appdone, false, "./", "DEBUG"); !isSuccess {
 		fmt.Printf("Error-102: Unable to initilize logger, exiting application.\n")
 		os.Exit(102)
@@ -101,9 +97,8 @@ func main() {
 	}()
 
 	wg.Wait()
-	logger.Log(pkgname, logger.DBGRM, "ch-2")
+	pwp.Stop()
 	cancelFuncAppEnd()
-	//fmt.Println("INFO: application stopped.")
 	fmt.Printf("INFO: application stopped (%t).\n", <-appdone)
 
 	return

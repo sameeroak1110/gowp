@@ -108,7 +108,7 @@ func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int3
 		cancelMsg: cmsg,
 		ctx: tmpctx,
 		cancelFunc: cfunc,
-		startLock: &sync.Mutex{},
+		singletonCtrl: &sync.Mutex{},
 		wg: sync.WaitGroup{},
 	}
 
@@ -191,13 +191,14 @@ func (pwp *WorkerPool) Start(ctx context.Context, pwg *sync.WaitGroup) {
 		pwg.Done()
 	}()
 
-	pwp.startLock.Lock()
+	pwp.singletonCtrl.Lock()
 	if pwp.startFlag {
-		pwp.startLock.Unlock()
+		pwp.singletonCtrl.Unlock()
 		return
 	}
 	pwp.startFlag = true
-	pwp.startLock.Unlock()
+	pwp.stopFlag = false
+	pwp.singletonCtrl.Unlock()
 
 	for {
 		select {
@@ -223,6 +224,37 @@ func (pwp *WorkerPool) Start(ctx context.Context, pwg *sync.WaitGroup) {
 				break
 		}
 	}
+
+	return
+}
+
+
+/* *****************************************************************************
+Description : Stops the worker-pool.
+
+Receiver    : *WorkerPool 
+
+Implements  : NA
+
+Arguments   : NA
+
+Return value: NA
+
+Additional note: NA
+***************************************************************************** */
+func (pwp *WorkerPool) Stop() {
+	pwp.singletonCtrl.Lock()
+	defer pwp.singletonCtrl.Unlock()
+
+	if pwp.stopFlag {
+		return
+	}
+
+	pwp.stopFlag = true
+	pwp.startFlag = false
+
+	close(pwp.jobq)
+	close(pwp.workers)
 
 	return
 }

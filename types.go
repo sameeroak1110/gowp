@@ -32,9 +32,8 @@ type WorkerPool struct {
 	ctx context.Context           // passed on through upstream.
 	cancelFunc context.CancelFunc // cancel function of context. passed on through upstream.
 	wg sync.WaitGroup             // concurrency control, used in conjunction with ctx.
-	startLock *sync.Mutex         // ensures workerpool is started only once while it's in the run at any given instance in time.
+	singletonCtrl *sync.Mutex     // ensures worker-pool is started/stopped only once while it's in action.
 	startFlag bool
-	stopLock *sync.Mutex          // ensures workerpool is stopped only once while it's in the run at any given instance in time.
 	stopFlag bool
 }
 
