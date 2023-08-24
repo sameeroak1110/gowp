@@ -230,7 +230,7 @@ func (pwp *WorkerPool) Start(ctx context.Context, pwg *sync.WaitGroup) {
 
 
 /* *****************************************************************************
-Description : Stops the worker-pool.
+Description : Stops a worker-pool.
 
 Receiver    : *WorkerPool 
 
