@@ -81,7 +81,7 @@ int32 type, however, there's no atomic.Add... function for uint8 or int8 type va
 wcnt keeps track of the number of workers that're in the run at any given instance in time.
 avlwcnt keeps track of the number of available workes at any given instance in time.
 ***************************************************************************** */
-func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, name, smsg, cmsg string) (*WorkerPool, int32, error) {
+func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, _name, smsg, cmsg string) (*WorkerPool, int32, error) {
 	if wpsize < minWPSize {
 		wpsize = minWPSize
 	}
@@ -99,9 +99,9 @@ func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int3
 
 	wpID := atomic.AddInt32(&newPoolID, 1)
 	pwp := &WorkerPool {
-		ID: wpID,
-		UUID: uuid,
-		Name: name,
+		id: wpID,
+		uuid: uuid,
+		name: _name,
 		jobq: make(chan Job, jpsize),
 		workers: make(chan int32, wpsize),
 		startMsg: smsg,
@@ -117,20 +117,12 @@ func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int3
 	}
 	pwp.avlwcnt = wpsize
 
-	return pwp, pwp.ID, nil
+	return pwp, pwp.id, nil
 }
 
 
 func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
-	//var err error
-
 	defer func() {
-		// TODO: log jobstatus
-		/* jobStatus := "JobDone"
-		if err != nil {
-			jobStatus = "JobError: " + err.Error()
-		} */
-
 		pwp.workers <- wid  // one more worker is made available.
 		atomic.AddInt32(&pwp.wcnt, -1)
 		atomic.AddInt32(&pwp.avlwcnt, 1)
@@ -144,7 +136,7 @@ func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
 		defer pwg.Done()
 
 		js := JobStatus{}
-		js.Data, js.Err = job.Data.Process(pwp.GetContext())
+		js.data, js.err = job.data.Process(pwp.GetContext())
 		c <- js
 	}(&wg)
 
@@ -153,11 +145,7 @@ func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
 			wg.Wait()
 			return
 
-		// TODO: need to push the result to some channel.
-		/* case js := <-c:
-			err = js.Err
-			wg.Wait() */
-
+		// TODO: result processing.
 		case <-c:
 			wg.Wait()
 	}

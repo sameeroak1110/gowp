@@ -7,9 +7,9 @@ import (
 
 
 type Job struct {
-	ID uint64         // generated internally using atomic.AddUint64().
-	Name string       // job name, optional.
-	Data JobProcessor // data part, any type that implements JobProcessor.
+	id uint64         // generated internally using atomic.AddUint64().
+	name string       // job name, optional.
+	data JobProcessor // data part, any type that implements JobProcessor.
 }
 
 // - a workerpool has ID, UUID, and a name.
@@ -19,9 +19,9 @@ type Job struct {
 // - startMsg is supposedly to indicate the wp has been started. cancelMsg is supposedly to indicate that
 // the wp has been cancelled/stopped.
 type WorkerPool struct {
-	ID int32                      // generated internally using atomic.AddInt32().
-	UUID string                   // generated internally.
-	Name string                   // user defined name of worker-pool.
+	id int32                      // generated internally using atomic.AddInt32().
+	uuid string                   // generated internally.
+	name string                   // user defined name of worker-pool.
 	jobq chan Job                 // jobs that workers are going to work on.
 	jobcnt uint64                 // total no. of jobs served by this wp. updated using atomic.AddUint64().
 	workers chan int32            // limited number of workers that are going to work on jobs.
@@ -39,6 +39,6 @@ type WorkerPool struct {
 
 // Status of execution of each job.
 type JobStatus struct {
-	Data interface{}
-	Err error
+	data interface{}
+	err error
 }

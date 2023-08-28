@@ -170,3 +170,5 @@ On cancellation of the parent context, it's possible that job queue still has so
 yet to be served. exec() method waits for the job processing go-routine to finish.
 In turn, the Start() method waits for all the job processing go-routines to finish. This may result
 some jobs being dropped from the job queue.
+One way to allow all the remaining jobs b served is through iterating over the job queue where we
+handle the context cancellation event.

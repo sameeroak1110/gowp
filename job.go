@@ -5,6 +5,7 @@ import (
 	"sync/atomic"
 )
 
+
 func (pwp *WorkerPool) AddJob(job JobProcessor) {
 	defer func() {
 		if panicState := recover(); panicState != nil {
@@ -14,8 +15,8 @@ func (pwp *WorkerPool) AddJob(job JobProcessor) {
 
 	id := atomic.AddUint64(&pwp.jobcnt, 1)
 	j := Job {
-		ID: id,
-		Data: job,
+		id: id,
+		data: job,
 	}
 
 	pwp.jobq <- j

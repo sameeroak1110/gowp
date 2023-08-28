@@ -29,3 +29,5 @@ var workercnt int32
 const minWPSize int32 = 10
 const maxWPSize int32 = 100
 const jpwpfactor int32 = 100
+
+const EMPTY_STRING string = ""
