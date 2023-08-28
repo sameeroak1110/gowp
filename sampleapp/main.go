@@ -47,7 +47,8 @@ func addjobs(ctx context.Context, pwg *sync.WaitGroup, pwp *gowp.WorkerPool) {
 				}
 				time.Sleep(time.Duration(waitForMS) * time.Millisecond)
 				pwp.AddJob(job)
-				logger.Log(pkgname, logger.DEBUG, "[%s:%d]  waited for %d ms before new job(%s:%d) was added\n", pwp.Name, pwp.ID, waitForMS, job.Name, job.ID)
+				logger.Log(pkgname, logger.DEBUG, "[%s:%d]  waited for %d ms before new job(%s:%d) was added\n", pwp.GetName(), pwp.GetID(),
+					waitForMS, job.Name, job.ID)
 				i++
 		}
 	}
