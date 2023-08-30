@@ -39,9 +39,9 @@ The most prominent members of WorkerPool are **jobPool**, **workers**, **ctx**, 
 so that the context cancellation from upstream is handled gracefully. The objective is
 to let each downstream go-routine finish its job gracefully and in entirety.
 
-**startLock** and **stopLock** are used for singleton control. A worker-pool once started
+**singletonCtrl** is used for singleton control. A worker-pool once started
 shouldn't be accidentally restarted. Similarly a worker-pool once stopped shouldn't be accidentally
-stopped again. **stopLock** is not being used at present.
+stopped again. Start() and Stop() methods over *WorkerPool receiver use singletonCtrl.
 Note: sync.Once along with func (o *Once) Do(f func()) from sync package can also be used to
 achieve singleton control.
 
@@ -121,6 +121,12 @@ func (pwp *WorkerPool) Start(ctx context.Context, pwg *sync.WaitGroup)
 ```
 main() of sampleapp shows how to invoke this function.
 
+A worker-pool is stopped by invoking Stop() method over *WorkerPool receiver. Stop() method closes
+job queue and workers channels.
+```
+func (pwp *WorkerPool) Stop()
+```
+
 A job is added to the worker-pool through method Add() on pointer receiver of type WorkerPool.
 ```
 func (pwp *WorkerPool) AddJob(job JobProcessor)
@@ -170,5 +176,5 @@ On cancellation of the parent context, it's possible that job queue still has so
 yet to be served. exec() method waits for the job processing go-routine to finish.
 In turn, the Start() method waits for all the job processing go-routines to finish. This may result
 some jobs being dropped from the job queue.
-One way to allow all the remaining jobs b served is through iterating over the job queue where we
+One way to allow all the remaining jobs be served is through iterating over the job queue where we
 handle the context cancellation event.
