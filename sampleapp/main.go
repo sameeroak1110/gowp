@@ -69,13 +69,13 @@ func main() {
 
 	appdone := make(chan bool)
 	if isSuccess := logger.Init(ctxAppEnd, appdone, false, "./", "DEBUG"); !isSuccess {
-		fmt.Printf("Error-102: Unable to initilize logger, exiting application.\n")
+		fmt.Printf("Error-1: Unable to initilize logger, exiting application.\n")
 		os.Exit(102)
 	}
 	logger.Log(pkgname, logger.DEBUG, "logger initialized.")
 	logger.Log(pkgname, logger.DEBUG, "log dispatcher started.")
 
-	pwp, _, err := gowp.NewWorkerPool(ctxParent, cancelParent, 100, "wp1", fmt.Sprintf("started wp-1"), fmt.Sprintf("cancelled wp-1"))
+	pwp, _, err := gowp.NewWorkerPool(ctxParent, cancelParent, 100, "wp1", "started wp-1", "cancelled wp-1")
 	if err != nil {
 		logger.Log(pkgname, logger.ERROR, "new worker-pool error: %s\n", err.Error())
 		return
@@ -93,7 +93,8 @@ func main() {
 		pS.Scan()
 		// pReader := bufio.NewReader(os.Stdin)
 		// pReader.ReadString('\n')
-		fmt.Println("WARNING: received termination.")
+		//fmt.Println("WARNING: received termination.")
+		logger.Log(pkgname, logger.WARNING, "Received termination.")
 		cancelParent()
 	}()
 

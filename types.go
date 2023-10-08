@@ -35,6 +35,8 @@ type WorkerPool struct {
 	singletonCtrl *sync.Mutex     // ensures worker-pool is started/stopped only once while it's in action.
 	startFlag bool
 	stopFlag bool
+	isResponse bool               // true if upstream needs job execution status.
+	jobctrl bool                  // context-timeout in exec function.
 }
 
 // Status of execution of each job.

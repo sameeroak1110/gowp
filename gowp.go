@@ -53,8 +53,8 @@ func (pwp *WorkerPool) GetContext() context.Context {
 
 
 /* *****************************************************************************
-Description : Creates a new worker-pool instance. Job pool is created through this function.
-Size of jobpool is 100 times the number of workers (denoted by wpsize in the function call).
+Description : Creates a new worker-pool instance. New worker-pool is created through this function.
+Size of job-queue is 100 times the number of workers (denoted by wpsize in the function call).
 
 Receiver    : NA
 
@@ -62,12 +62,13 @@ Implements  : NA
 
 Arguments   :
 1> tmpctx context.Context: Worker-pool context. This context is created in the upstream.
-2> cfunc context.CancelFunc: Context cancel function, just in case needed.f
-3> wpsize int32: Number of workers, denotes worker-pool size. Minimum size is 10 and maximum
+2> wpsize int32: Number of workers, denotes worker-pool size. Minimum size is 10 and maximum
 allowed size is 100.
-4> name string: Worker-pool name, optional.
-5> smsg string: Start worker-pool message, optional.
-6> cmsg string: Cancel worker-pool message, optional.
+3> name string: Worker-pool name, optional.
+4> smsg string: Start worker-pool message, optional.
+5> cmsg string: Cancel worker-pool message, optional.
+6> isResponse bool: true if business logic needs job execution response.
+7> jobctrl bool: context-timeout in the exec functions.
 
 Return value:
 1> *WorkerPool: Reference to the newly created worker-pool.
@@ -81,7 +82,8 @@ int32 type, however, there's no atomic.Add... function for uint8 or int8 type va
 wcnt keeps track of the number of workers that're in the run at any given instance in time.
 avlwcnt keeps track of the number of available workes at any given instance in time.
 ***************************************************************************** */
-func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, _name, smsg, cmsg string) (*WorkerPool, int32, error) {
+func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, _name, smsg, cmsg string, isResponse bool,
+	jobctrl bool) (*WorkerPool, int32, error) {
 	if wpsize < minWPSize {
 		wpsize = minWPSize
 	}
