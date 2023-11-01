@@ -34,5 +34,5 @@ import (
 // - Therefore, it's upto the implementation how to handle the upstream context.
 type JobProcessor interface {
 	GetName() string
-	Process(context.Context) (interface{}, error)
+	Process(context.Context, context.CancelFunc, int) (interface{}, error)
 }

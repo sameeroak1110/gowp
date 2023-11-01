@@ -35,6 +35,19 @@ type WorkerPool struct {
 	singletonCtrl *sync.Mutex     // ensures worker-pool is started/stopped only once while it's in action.
 	startFlag bool
 	stopFlag bool
+	isResponse bool               // true if upstream needs job execution status.
+	jobctrl bool                  // context-timeout in exec function.
+
+	// worker-pool cancellation:
+	maxJobCnt       int    // maximum of jobs worker-pool has executed before cancellation. Process() method of JobProcessor{} interface uses this count.
+	shouldTerminate bool   // if true, Process() method of JobProcessor{} interface invokes cancel function to terminate the worker-pool.
+}
+
+type WorkerPoolOptions struct {
+	MaxJobCnt       int    // maximum of jobs worker-pool has executed before cancellation. Process() method of JobProcessor{} interface uses this count.
+	                       // if current jobcnt reaches MaxJobCnt, Process() may invoke cancellation if ShouldTerminate flag is set to true.
+						   // default value is 0 to indicate cancellation is ignored.
+	ShouldTerminate bool   // if true, Process() method of JobProcessor{} interface invokes cancel function to terminate the worker-pool.
 }
 
 // Status of execution of each job.

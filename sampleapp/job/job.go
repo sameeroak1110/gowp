@@ -20,7 +20,7 @@ func (job TestJobData) GetName() string {
 	return job.Name
 }
 
-func (job TestJobData) Process(ctx context.Context) (interface{}, error) {
+func (job TestJobData) Process(ctx context.Context, cancelFunc context.CancelFunc, jobcnt int) (interface{}, error) {
 	defer func() {
 		if panicState := recover(); panicState != nil {
 			logger.Log(pkgname, logger.ERROR, "Recovered from panic. state: %#v", panicState)
@@ -42,6 +42,10 @@ func (job TestJobData) Process(ctx context.Context) (interface{}, error) {
 			execForMS := helper.RandomInt(3000, 5000)
 			time.Sleep(time.Duration(execForMS) * time.Millisecond)
 			logger.Log(pkgname, logger.DEBUG, "TestJobData process(%d:%s) executed for %d ms", job.ID, job.Name, execForMS)
+			if job.ID == cnt {
+				logger.Log(pkgname, logger.DEBUG, "All done. Invoking termination.")
+				cancelFunc()
+			}
 	}
 
 	return nil, nil

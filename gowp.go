@@ -53,8 +53,50 @@ func (pwp *WorkerPool) GetContext() context.Context {
 
 
 /* *****************************************************************************
-Description : Creates a new worker-pool instance. Job pool is created through this function.
-Size of jobpool is 100 times the number of workers (denoted by wpsize in the function call).
+Description : Returns worker-pool context cancel function. This context function is created from
+the upstream is part of the context of worker-pool.
+
+Receiver    :
+*WorkerPool: Reference of the newly created worker-pool.
+
+Implements  : NA
+
+Arguments   : NA
+
+Return value:
+1> context.CancelFunc: Worker-pool context cancel function.
+
+Additional note: NA
+***************************************************************************** */
+func (pwp *WorkerPool) GetCancelFunc() context.CancelFunc {
+	return pwp.cancelFunc
+}
+
+
+/* *****************************************************************************
+Description : Returns max job cnt a worker-pool will execute if WorkerPoolOptions.ShouldTerminate
+is set to true.
+
+Receiver    :
+*WorkerPool: Reference of the newly created worker-pool.
+
+Implements  : NA
+
+Arguments   : NA
+
+Return value:
+1> int: WorkerPool.maxJobCnt
+
+Additional note: NA
+***************************************************************************** */
+func (pwp *WorkerPool) GetMaxJobCnt() int {
+	return pwp.maxJobCnt
+}
+
+
+/* *****************************************************************************
+Description : Creates a new worker-pool instance. New worker-pool is created through this function.
+Size of job-queue is 100 times the number of workers (denoted by wpsize in the function call).
 
 Receiver    : NA
 
@@ -62,12 +104,12 @@ Implements  : NA
 
 Arguments   :
 1> tmpctx context.Context: Worker-pool context. This context is created in the upstream.
-2> cfunc context.CancelFunc: Context cancel function, just in case needed.f
+2> cfunc context.CancelFunc: Cancel function of context.
 3> wpsize int32: Number of workers, denotes worker-pool size. Minimum size is 10 and maximum
 allowed size is 100.
-4> name string: Worker-pool name, optional.
-5> smsg string: Start worker-pool message, optional.
-6> cmsg string: Cancel worker-pool message, optional.
+TODO: 4> isResponse bool: true if business logic needs job execution response.
+TODO: 5> jobctrl bool: context-timeout in the exec functions.
+6> opts WorkerPoolOptions: WorkerPool options. start-message, cancel-message, maxjobcnt, and shouldterminate flag.
 
 Return value:
 1> *WorkerPool: Reference to the newly created worker-pool.
@@ -81,7 +123,9 @@ int32 type, however, there's no atomic.Add... function for uint8 or int8 type va
 wcnt keeps track of the number of workers that're in the run at any given instance in time.
 avlwcnt keeps track of the number of available workes at any given instance in time.
 ***************************************************************************** */
-func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, _name, smsg, cmsg string) (*WorkerPool, int32, error) {
+/* func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, _name, smsg, cmsg string, isResponse bool,
+	jobctrl bool) (*WorkerPool, int32, error) { */
+func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int32, _name, smsg, cmsg string, opts WorkerPoolOptions) (*WorkerPool, int32, error) {
 	if wpsize < minWPSize {
 		wpsize = minWPSize
 	}
@@ -101,15 +145,17 @@ func NewWorkerPool(tmpctx context.Context, cfunc context.CancelFunc, wpsize int3
 	pwp := &WorkerPool {
 		id: wpID,
 		uuid: uuid,
-		name: _name,
 		jobq: make(chan Job, jpsize),
 		workers: make(chan int32, wpsize),
-		startMsg: smsg,
-		cancelMsg: cmsg,
 		ctx: tmpctx,
 		cancelFunc: cfunc,
 		singletonCtrl: &sync.Mutex{},
 		wg: sync.WaitGroup{},
+		name: _name,
+		startMsg: smsg,
+		cancelMsg: cmsg,
+		maxJobCnt: opts.MaxJobCnt,
+		shouldTerminate: opts.ShouldTerminate,
 	}
 
 	for i := int32(1); i <= wpsize; i++ {
@@ -136,7 +182,7 @@ func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
 		defer pwg.Done()
 
 		js := JobStatus{}
-		js.data, js.err = job.data.Process(pwp.GetContext())
+		js.data, js.err = job.data.Process(pwp.GetContext(), cancelFunc)
 		c <- js
 	}(&wg)
 
