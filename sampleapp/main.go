@@ -75,7 +75,9 @@ func main() {
 	logger.Log(pkgname, logger.DEBUG, "logger initialized.")
 	logger.Log(pkgname, logger.DEBUG, "log dispatcher started.")
 
-	pwp, _, err := gowp.NewWorkerPool(ctxParent, cancelParent, 100, "wp1", "started wp-1", "cancelled wp-1")
+	//pwp, _, err := gowp.NewWorkerPool(ctxParent, cancelParent, 100, "wp1", "started wp-1", "cancelled wp-1")
+	pwp, _, err := gowp.NewWorkerPool(ctxParent, cancelParent, 100, "wp1", "started wp-1", "cancelled wp-1",
+		gowp.WorkerPoolOptions{1000, true})
 	if err != nil {
 		logger.Log(pkgname, logger.ERROR, "new worker-pool error: %s\n", err.Error())
 		return
