@@ -74,7 +74,28 @@ func (pwp *WorkerPool) GetCancelFunc() context.CancelFunc {
 
 
 /* *****************************************************************************
-Description : Returns max job cnt a worker-pool will execute if WorkerPoolOptions.ShouldTerminate
+Description : Returns WorkerPoolOptions.ShouldTerminate. If true, Process() method may
+terminate the worker-pool.
+
+Receiver    :
+*WorkerPool: Reference of the newly created worker-pool.
+
+Implements  : NA
+
+Arguments   : NA
+
+Return value:
+1> bool: WorkerPool.shouldTerminate
+
+Additional note: NA
+***************************************************************************** */
+func (pwp *WorkerPool) GetShouldTerminate() bool {
+	return pwp.shouldTerminate
+}
+
+
+/* *****************************************************************************
+Description : Returns max job cnt a worker-pool, used if WorkerPoolOptions.ShouldTerminate
 is set to true.
 
 Receiver    :
@@ -182,7 +203,7 @@ func (pwp *WorkerPool) exec(job Job, wid, wcnt, avlwcnt int32) {
 		defer pwg.Done()
 
 		js := JobStatus{}
-		js.data, js.err = job.data.Process(pwp.GetContext(), cancelFunc)
+		js.data, js.err = job.data.Process(pwp.GetContext(), pwp.cancelFunc, pwp.maxJobCnt, pwp.shouldTerminate)
 		c <- js
 	}(&wg)
 
