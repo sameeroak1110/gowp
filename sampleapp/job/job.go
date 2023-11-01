@@ -43,7 +43,7 @@ func (job TestJobData) Process(ctx context.Context, cancelFunc context.CancelFun
 			time.Sleep(time.Duration(execForMS) * time.Millisecond)
 			logger.Log(pkgname, logger.DEBUG, "TestJobData process(%d:%s) executed for %d ms", job.ID, job.Name, execForMS)
 			if shouldTerminate == true {
-				if job.ID == cnt {
+				if job.ID == int64(cnt) {
 					logger.Log(pkgname, logger.DEBUG, "All done. Invoking termination.")
 					cancelFunc()
 				}
